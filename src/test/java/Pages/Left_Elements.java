@@ -5,7 +5,7 @@ import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.PageFactory;
 
-public class Left_Elements {
+public class Left_Elements extends Parent{
     public Left_Elements() {
         PageFactory.initElements(Singleton_Driver.getDriver(), this);
     }
@@ -32,7 +32,11 @@ public class Left_Elements {
     //US-004 **********************************************
     @FindBy(xpath = "(//span[text()='Positions'])[1]")
     private WebElement humanPosition;
-
-
-
+    public WebElement getWebElement(String target){
+        switch (target){
+            case "setup":
+                return this.setup;
+        }
+        return null;
+    }
 }
