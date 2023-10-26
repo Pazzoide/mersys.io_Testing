@@ -52,13 +52,6 @@ public class ModalMenuLocators extends Parent{
     @FindBy(xpath="//div[contains(text(),'successfully')]")
     public WebElement successMessage;
 
-    //US-003 ***************************************************
-    @FindBy(xpath = "//mat-select[@formcontrolname='attachmentStages']")
-    private WebElement stage;
-    @FindBy(xpath="//span[text()=' Student Registration ']") //tıklama sonrası ESC tıklanması gerekli
-    private WebElement studentReg;
-    @FindBy(xpath = "//*[contains(text(),'Description')]")
-    private WebElement description;
     public WebElement getWebElement(String target) {
         switch (target) {
 
