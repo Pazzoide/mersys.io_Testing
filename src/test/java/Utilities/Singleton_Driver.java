@@ -45,7 +45,7 @@ public class Singleton_Driver {
         } catch (InterruptedException Ex) {
             throw new RuntimeException(Ex);
         }
-        if (tlWebDriver.get() == null) {
+        if (tlWebDriver.get() != null) {
             tlWebDriver.get().quit();
             WebDriver driver = tlWebDriver.get();
             driver = null;

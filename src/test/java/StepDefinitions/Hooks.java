@@ -15,7 +15,7 @@ public class Hooks {
     }
     @After
     public void after(Scenario testCase){
-        ExcelManager.excelWriter("src/test/java/ExcelFiles",testCase);
+        ExcelManager.excelWriter("src/test/java/ExcelFiles/testCase.xlsx",testCase);
         if (testCase.isFailed()){
             TakesScreenshot screenshotTaker = (TakesScreenshot) Singleton_Driver.getDriver();
             byte[] inMemoryState = screenshotTaker.getScreenshotAs(OutputType.BYTES);
