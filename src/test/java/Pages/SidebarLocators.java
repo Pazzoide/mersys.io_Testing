@@ -32,6 +32,9 @@ public class SidebarLocators extends Parent{
     //US-004 **********************************************
     @FindBy(xpath = "(//span[text()='Positions'])[1]")
     private WebElement humanPosition;
+    @FindBy(xpath = "//span[text()='Fields']")
+    private WebElement fields;
+
     public WebElement getWebElement(String target){
         switch (target){
             case "setup":
