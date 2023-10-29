@@ -5,6 +5,7 @@ Feature: Certification (Attestations) Management
     When The user logs in with the data received from Excel
       | login | 2 |
 
+  @HR @Smoke @Regression
   Scenario Outline: Adding, editing and deleting Position Categories
     Then The user click on the element in SidebarLocators
       | humanResources    |

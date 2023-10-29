@@ -13,23 +13,23 @@ import java.util.ArrayList;
 
 public class ExcelManager {
     public static ArrayList<ArrayList<String>> getData(String filePath, String sheetTitle, int columnCount) {
-        ArrayList<ArrayList<String>> Matrix = new ArrayList<>();
-        Sheet dataSheet = null;
+        ArrayList<ArrayList<String>> matrix = new ArrayList<>();
+        Sheet sheet1 = null;
         try {
-            FileInputStream fileSource = new FileInputStream(filePath);
-            Workbook dataWorkbook = WorkbookFactory.create(fileSource);
-            dataSheet = dataWorkbook.getSheet(sheetTitle);
-        } catch (IOException Ex) {
-            throw new RuntimeException(Ex);
+            FileInputStream inputStream = new FileInputStream(filePath);
+            Workbook workbook = WorkbookFactory.create(inputStream);
+            sheet1 = workbook.getSheet(sheetTitle);
+        } catch (IOException e) {
+            System.out.println("e.getMessage() = " + e.getMessage());
         }
-        for (int i = 0; i < dataSheet.getPhysicalNumberOfRows(); i++) {
-            ArrayList<String> rowData = new ArrayList<>();
+        for (int i = 0; i < sheet1.getPhysicalNumberOfRows(); i++) {
+            ArrayList<String> satir = new ArrayList<>();
             for (int j = 0; j < columnCount; j++) {
-                rowData.add(dataSheet.getRow(i).getCell(i).toString());
+                satir.add(sheet1.getRow(i).getCell(j).toString());
             }
-            Matrix.add(rowData);
+            matrix.add(satir);
         }
-        return Matrix;
+        return matrix;
     }
 
     public static void excelWriter(String filePath, Scenario testCase) {
