@@ -5,6 +5,7 @@ Feature: Document Types Management
     When The user logs in with the data received from Excel
       | login | 2 |
 
+  @Docs @Smoke
   Scenario Outline: Adding, editing and deleting Document Types
     Then The user click on the element in SidebarLocators
       | setup         |
@@ -29,7 +30,7 @@ Feature: Document Types Management
       | searchInput | <name> |
     Then The user click on the element in ModalMenuLocators
       | searchButton |
-    And The user click on the element in ModalMenuLocators
+    And Delayed click on edit button
       | editButton |
     When The user sending the keys in the ModalMenuLocators
       | nameInput | <newName> |

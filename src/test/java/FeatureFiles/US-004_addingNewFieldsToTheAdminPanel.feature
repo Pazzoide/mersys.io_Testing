@@ -5,6 +5,7 @@ Feature: Adding New Fields to the Admin Panel
     When The user logs in with the data received from Excel
       | login | 2 |
 
+  @Parameters @Fields @Smoke
   Scenario Outline: Adding, editing and deleting New Fields to the Admin Panel
     Then The user click on the element in SidebarLocators
       | setup      |

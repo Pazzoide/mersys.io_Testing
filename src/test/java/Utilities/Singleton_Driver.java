@@ -8,12 +8,17 @@ import org.openqa.selenium.safari.SafariDriver;
 
 import java.time.Duration;
 import java.util.Locale;
+import java.util.logging.Level;
+import java.util.logging.Logger;
 
 public class Singleton_Driver {
     final private static ThreadLocal<WebDriver> tlWebDriver = new ThreadLocal<>();
     public static ThreadLocal<String> tlText = new ThreadLocal<>();
 
     public static WebDriver getDriver() {
+        Logger logger = Logger.getLogger("");
+        logger.setLevel(Level.SEVERE);
+
         Locale.setDefault(new Locale("EN"));
         System.setProperty("user.language", "EN");
         if (tlText.get() == null) {
