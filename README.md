@@ -140,4 +140,4 @@ Feature: While Starting
 ## LICENSE
 <img src="https://www.animatedimages.org/data/media/562/animated-line-image-0426.gif" width="1920" />
 
--This project is an open-source software licensed under the terms of the[ MIT license](https://opensource.org/license/mit/).
+- This project is an open-source software licensed under the terms of the[ MIT license](https://opensource.org/license/mit/).
