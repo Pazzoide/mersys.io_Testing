@@ -36,81 +36,44 @@ Feature: While Starting
 <img src="https://www.animatedimages.org/data/media/562/animated-line-image-0426.gif" width="1920" />
 
 <div align="right">
-<body>
-  <table style="width: 100%; table-layout: fixed; border-collapse: collapse; height: 100%;">
-    <thead>
-      <tr>
-        <th style="width: 33.33%;">
-          <img src="https://img.shields.io/badge/Selenium-%20v4.11.0%20-s?style=for-the-badge&logo=Selenium&labelColor=darksilver&color=darkgreen" alt="TestNG Badge">
-        </th>
-<th style="width: 33.33%;">
-          <img src="https://img.shields.io/badge/Cucumber-%20v7.9.0%20-s?style=for-the-badge&logo=Cucumber&labelColor=darksilver&color=darkgreen" alt="TestNG Badge">
-        </th>
-<th style="width: 33.33%;">
-          <img src="https://img.shields.io/badge/slf4j-%20v1.8.0--Beta2%20-s?style=for-the-badge&logo=ng&labelColor=darksilver&color=darkgreen" alt="TestNG Badge">
-        </th>
-      </tr>
-     <tr>
-        <td style="width: 33.33%;">
-           Selenium is a powerful automation framework used for automating and testing web browsers..     
-        </td><td style="width: 33.33%;">
-           Cucumber is a tool that supports BDD and provides collaborative test automation.     
-        </td><td style="width: 33.33%;">
-           slf4j (Simple Logging Facade for Java) provides a simple and efficient logging facade for Java applications.     
-        </td>
-      </tr>
-      </thead>
-      <tbody>
-         <tr>
-
-<th style="width: 33.33%;">
-          <img src="https://img.shields.io/badge/Apache%20-%20v3.12.0%20-s?style=for-the-badge&logo=apache&labelColor=darksilver&color=darkgreen" alt="TestNG Badge">
-        </th>
-
-<th style="width: 33.33%;">
-          <img src="https://img.shields.io/badge/Grasshopper%20-%20v1.9.2%20-s?style=for-the-badge&labelColor=darksilver&color=darkgreen" alt="TestNG Badge">
-        </th>
-
-<th style="width: 33.33%;">
-          <img src="https://img.shields.io/badge/TestNG-%20v6.14.3%20-s?style=for-the-badge&logo=ng&labelColor=darksilver&color=darkgreen" alt="TestNG Badge">
-        </th>
-      </tr>
+<table style="width: 100%; table-layout: fixed; border-collapse: collapse; height: 100%;">
+<thead>
 <tr>
-        <td style="width: 33.33%;">
-          Apache Commons is a library that offers file and data processing capabilities. It is part of the Apache Commons project.     
-        </td>
- <td style="width: 33.33%;">
-          Grasshopper is a tool used for generating HTML and PDF reports, aiding in the effective visualization of test results.     
-        </td>
- <td style="width: 33.33%;">
-          TestNG is a next-generation testing tool that provides a comprehensive testing framework.    
-        </td>
+<th style="width: 33.33%;"><img src="https://img.shields.io/badge/Selenium-%20v4.11.0%20-s?style=for-the-badge&amp;logo=Selenium&amp;labelColor=darksilver&amp;color=darkgreen" alt="TestNG Badge" /></th>
+<th style="width: 33.33%;"><img src="https://img.shields.io/badge/Cucumber-%20v7.9.0%20-s?style=for-the-badge&amp;logo=Cucumber&amp;labelColor=darksilver&amp;color=darkgreen" alt="TestNG Badge" /></th>
+<th style="width: 33.33%;"><img src="https://img.shields.io/badge/TestNG-%20v6.14.3%20-s?style=for-the-badge&amp;logo=ng&amp;labelColor=darksilver&amp;color=darkgreen" alt="TestNG Badge" /></th>
 </tr>
-      </tbody>
-  </table>
-</body>
+<tr>
+<td style="width: 33.33%;">Selenium is an open-source tool that automates web browsers. It can be used to test web applications, web scrape, and data entry.</td>
+<td style="width: 33.33%;">Cucumber is a BDD framework for defining acceptance tests using human-readable text, automating tests for various applications.</td>
+<td style="width: 33.33%;">TestNG is a powerful open-source testing framework for Java that can be used to efficiently automate a wide range of testing tasks and scenarios.</td>
+</tr>
+</thead>
+<tbody>
+<tr>
+<th style="width: 33.33%;"><img src="https://img.shields.io/badge/Apache%20Commons%20-%20v3.12.0%20-s?style=for-the-badge&amp;logo=Apache&amp;labelColor=darksilver&amp;color=darkgreen" alt="TestNG Badge" /></th>
+<th style="width: 33.33%;"><img src="https://img.shields.io/badge/Apache%20POI%20-%20v4.1.0%20-s?style=for-the-badge&amp;logo=Apache&amp;labelColor=darksilver&amp;color=darkgreen" alt="TestNG Badge" /></th>
+<th style="width: 33.33%;"><img src="https://img.shields.io/badge/Apache%20POI%20OOXML%20-%20v4.1.0%20-s?style=for-the-badge&amp;logo=Apache&amp;labelColor=darksilver&amp;color=darkgreen" alt="TestNG Badge" /></th>
+</tr>
+<tr>
+<td style="width: 33.33%;">Java library that simplifies essential operations in Java, including text processing, string manipulation, and other language utilities.</td>
+<td style="width: 33.33%;">Apache POI is a Java library that provides tools for reading and writing office documents in various formats, including Excel, Word, and PowerPoint.</td>
+<td style="width: 33.33%;">Apache POI OOXML is an extension of Apache POI that facilitates handling modern office document formats, such as .xlsx files, in Java.</td>
+</tr>
+<tr>
+<th style="width: 33.33%;"><img src="https://img.shields.io/badge/slf4j-%20v1.8.0--Beta2%20-s?style=for-the-badge&amp;logo=ng&amp;labelColor=darksilver&amp;color=darkgreen" alt="TestNG Badge" /></th>
+<th style="width: 33.33%;"><img src="https://img.shields.io/badge/Grasshopper%20-%20v1.9.2%20-s?style=for-the-badge&amp;labelColor=darksilver&amp;color=darkgreen" alt="TestNG Badge" /></th>
+<th style="width: 33.33%;"><img src="https://img.shields.io/badge/Javafaker%20-%20v1.0.2%20-s?style=for-the-badge&amp;labelColor=darksilver&amp;color=darkgreen" alt="TestNG Badge" /></th>
+</tr>
+<tr>
+<td style="width: 33.33%;">SLF4J (Simple Logging Facade for Java) is a Java logging library that simplifies and standardizes logging operations in Java applications</td>
+<td style="width: 33.33%;">Grasshopper is a versatile and user-friendly tool for generating HTML and PDF reports, aiding in the effective visualization of test results.</td>
+<td style="width: 33.33%;">JavaFaker is a versatile Java library that provides realistic fake data for use in project development, testing, and presentations.</td>
+</tr>
+</tbody>
+</table>
 </div>
-<div align="right">
-<body>
-  <table style="width: 100%; table-layout: fixed; border-collapse: collapse; height: 100%;">
-    <thead>
-      <tr>
-        <th style="width: 33.33%;">
-          <img src="https://img.shields.io/badge/Javafaker%20-%20v1.0.2%20-s?style=for-the-badge&labelColor=darksilver&color=darkgreen
-" alt="TestNG Badge">
-        </th>
-      </tr>
-      </thead>
-      <tbody>
-         <tr>
-        <td style="width: 33.33%;">
-           JavaFaker is a Java library that provides<br> realistic fake data for use in project<br> development and presentations.     
-        </td>
-      </tr>
-      </tbody>
-  </table>
-</body>
-</div>
+
 
 ### File Structure
 
