@@ -45,7 +45,7 @@ Feature: While Starting
 </tr>
 <tr>
 <td style="width: 33.33%;">Selenium is an open-source tool that automates web browsers. It can be used to test web applications, web scrape, and data entry.</td>
-<td style="width: 33.33%;">Cucumber is a BDD framework for defining acceptance tests using human-readable text, automating tests for various applications.</td>
+<td style="width: 33.33%;">Cucumber is a BDD framework that uses human-readable text to define acceptance tests. It can be used to automate tests for a variety of applications</td>
 <td style="width: 33.33%;">TestNG is a powerful open-source testing framework for Java that can be used to efficiently automate a wide range of testing tasks and scenarios.</td>
 </tr>
 </thead>
@@ -58,7 +58,7 @@ Feature: While Starting
 <tr>
 <td style="width: 33.33%;">Java library that simplifies essential operations in Java, including text processing, string manipulation, and other language utilities.</td>
 <td style="width: 33.33%;">Apache POI is a Java library that provides tools for reading and writing office documents in various formats, including Excel, Word, and PowerPoint.</td>
-<td style="width: 33.33%;">Apache POI OOXML is an extension of Apache POI that facilitates handling modern office document formats, such as .xlsx files, in Java.</td>
+<td style="width: 33.33%;">Apache POI OOXML is an extension of Apache POI that facilitates handling modern office document formats, such as .xlsx files, in Java applications.</td>
 </tr>
 <tr>
 <th style="width: 33.33%;"><img src="https://img.shields.io/badge/slf4j-%20v1.8.0--Beta2%20-s?style=for-the-badge&amp;logo=ng&amp;labelColor=darksilver&amp;color=darkgreen" alt="TestNG Badge" /></th>
@@ -66,9 +66,9 @@ Feature: While Starting
 <th style="width: 33.33%;"><img src="https://img.shields.io/badge/Javafaker%20-%20v1.0.2%20-s?style=for-the-badge&amp;labelColor=darksilver&amp;color=darkgreen" alt="TestNG Badge" /></th>
 </tr>
 <tr>
-<td style="width: 33.33%;">SLF4J (Simple Logging Facade for Java) is a Java logging library that simplifies and standardizes logging operations in Java applications</td>
+<td style="width: 33.33%;">SLF4J (Simple Logging Facade for Java) is a Java logging library that simplifies and standardizes logging operations in Java applications.</td>
 <td style="width: 33.33%;">Grasshopper is a versatile and user-friendly tool for generating HTML and PDF reports, aiding in the effective visualization of test results.</td>
-<td style="width: 33.33%;">JavaFaker is a versatile Java library that provides realistic fake data for use in project development, testing, and presentations.</td>
+<td style="width: 33.33%;">JavaFaker is a versatile and user-friendly Java library that provides realistic fake data for use in project development, testing, and presentations.</td>
 </tr>
 </tbody>
 </table>
