@@ -96,7 +96,8 @@ Feature: While Starting
     <thead>
       <tr>
         <th style="width: 33.33%;">
-          <img src="https://img.shields.io/badge/javafaker-%20v0.15%20-s?style=for-the-badge&labelColor=darksilver&color=darkgreen" alt="TestNG Badge">
+          <img src="https://img.shields.io/badge/Javafaker%20-%20v1.0.2%20-s?style=for-the-badge&labelColor=darksilver&color=darkgreen
+" alt="TestNG Badge">
         </th>
       </tr>
       </thead>
