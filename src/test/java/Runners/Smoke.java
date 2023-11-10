@@ -9,7 +9,8 @@ import org.testng.annotations.AfterClass;
         tags = "@Smoke",
         features = {"src/test/java/FeatureFiles"},
         glue = {"StepDefinitions"},
-        plugin = {"com.aventstack.extentreports.cucumber.adapter.ExtentCucumberAdapter:"}
+        //plugin = {"com.aventstack.extentreports.cucumber.adapter.ExtentCucumberAdapter:"}
+        plugin = {"json:target/cucumber/cucumber.json"}
 )
 public class Smoke extends AbstractTestNGCucumberTests {
 
