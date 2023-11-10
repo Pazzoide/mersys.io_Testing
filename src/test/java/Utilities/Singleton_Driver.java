@@ -4,6 +4,7 @@ import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.edge.EdgeDriver;
 import org.openqa.selenium.firefox.FirefoxDriver;
+import org.openqa.selenium.firefox.FirefoxOptions;
 import org.openqa.selenium.safari.SafariDriver;
 
 import java.time.Duration;
@@ -36,7 +37,14 @@ public class Singleton_Driver {
                     tlWebDriver.set(new FirefoxDriver());
                     break;
                 default:
-                    tlWebDriver.set(new ChromeDriver());
+                    if (isRunningOnJenkins()) {
+                        FirefoxOptions options = new FirefoxOptions();
+                        options.addArguments("--headless", "--no-sandbox", "--disable-dev-shm-usage", "--disable-gpu", "--window-size=1400,2400");
+                        tlWebDriver.set(new FirefoxDriver(options));
+                    }
+                    else {
+                        tlWebDriver.set(new ChromeDriver());
+                    }
             }
         }
         tlWebDriver.get().manage().window().maximize();
@@ -56,5 +64,10 @@ public class Singleton_Driver {
             driver = null;
             tlWebDriver.set(driver);
         }
+    }
+
+    public static boolean isRunningOnJenkins() {
+        String jenkinsHome = System.getenv("JENKINS_HOME");
+        return jenkinsHome != null && !jenkinsHome.isEmpty();
     }
 }
