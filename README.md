@@ -6,6 +6,9 @@
 This project is created to improve the user experience of mersys.io, an educational application.
 
 Domain : [mersys.io](https://www.mersys.io/), [test.mersys.io](https://test.mersys.io//)
+### Mersys Campus
+- **API Test with REST Assured :** [mersys.io_API_REST_Assured](https://github.com/Pazzoide/mersysio_restassured.git)
+- **API Test with POSTMAN :** [mersys.io_API_Postman](https://github.com/Pazzoide/mersys.io_API_Testing.git)
 
 While Starting
 ---------------
@@ -30,6 +33,10 @@ Feature: While Starting
       | Runners > Runner Classes |
 
 ```
+
+<img src="https://www.animatedimages.org/data/media/562/animated-line-image-0426.gif" width="1920" />
+
+![Jenkins](Jenkins.gif)
 
 ### Dependencies
 
@@ -84,6 +91,7 @@ Feature: While Starting
 │   └── test
 │       ├── java
 │       │   ├── ExcelFiles
+│       │   │   └── LoginInfo.xlsx
 │       │   ├── FeatureFiles
 │       │   │   └── Cucumber Feature Files
 │       │   ├── Pages
